@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: floralwhite;
+}
+nav{
+    margin-bottom: 10px;
+    background-color: rgb(247, 200, 92);
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+fieldset{
+    width: auto;
+    border-radius: 5px;
+}
+fieldset label{
+    margin: 0px 10px 0px 0px;
+}
+legend{
+    font-size: 18px;
+    width: auto;
+    margin-bottom: auto;
+}
+div > label{
+    font-size: 18px;
+}
+/* div.col-6{
+    height: 730px ;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+} */

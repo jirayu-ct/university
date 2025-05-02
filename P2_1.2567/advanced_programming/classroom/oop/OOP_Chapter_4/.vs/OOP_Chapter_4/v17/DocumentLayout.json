@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|e:\\githup\\subjects\\p2_1.2567\\advanced_programming\\classroom\\oop\\oop_chapter_4\\oop_chapter_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\oop_chapter_4\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\oop_chapter_4\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\oop_chapter_4\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\oop_chapter_4\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\oop_chapter_4\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C512AB74-5DC9-46F1-8491-273844074CEE}|OOP_Chapter_4\\OOP_Chapter_4.csproj|solutionrelative:oop_chapter_4\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Program.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Program.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Program.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:20:08.817Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Vehicle.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Vehicle.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Vehicle.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Vehicle.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:29:32.217Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Truck.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Truck.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Truck.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Truck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T07:15:31.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Car.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Car.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Car.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:31:39.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Motorcycle.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Motorcycle.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Motorcycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T06:31:46.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Boat.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Boat.cs",
+              "RelativeDocumentMoniker": "OOP_Chapter_4\\Boat.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\OOP_Chapter_4\\OOP_Chapter_4\\Boat.cs",
+              "RelativeToolTip": "OOP_Chapter_4\\Boat.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T07:15:42.089Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

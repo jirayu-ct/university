@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+
+    <link rel="stylesheet" href="/frontend/css/style_customer.css">
+    <script src="/frontend/js/script_customer.js"></script>
+</head>
+
+<body>
+    <h1>Customers Management</h1>
+    <div class="container">
+        
+
+        <div>
+            <h3>Customers</h3>
+            <form id="addCustomerFrom">
+                <label for="firstName">ชื่อ</label>
+                <input type="text" name="firstName" id="firstName" required placeholder="กรอกชื่อ">
+
+                <label for="lastName">นามสกุล</label>
+                <input type="text" name="lastName" id="lastName" required placeholder="กรอกนามสกุล">
+
+                <label for="email">อีเมล</label>
+                <input type="text" name="email" id="email" required placeholder="กรอกอีเมล">
+
+                <label for="phone">เบอร์โทร</label>
+                <input type="text" name="phone" id="phone" required placeholder="กรอกเบอร์โทร">
+
+                <label for="address">ที่อยู่</label>
+                <input type="text" name="address" id="address" required placeholder="กรอกที่อยู่">
+
+                <button type="submit">เพิ่มลูกค้า</button>
+            </form>
+        </div>
+
+        <div id="editWindow" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Edit Customer</h3>
+                <form id="editCustomerForm">
+                    <input type="hidden" name="" id="editCustomerId">
+
+                    <label for="editFirstName">ชื่อ</label>
+                    <input type="text" name="editFirstName" id="editFirstName" required placeholder="กรอกชื่อ">
+
+                    <label for="editLastName">นามสกุล</label>
+                    <input type="text" name="editLastName" id="editLastName" required placeholder="กรอกนามสกุล">
+
+                    <label for="editEmail">อีเมล</label>
+                    <input type="text" name="editEmail" id="editEmail" required placeholder="กรอกอีเมล">
+
+                    <label for="editPhoneNumber">เบอร์โทร</label>
+                    <input type="text" name="editPhoneNumber" id="editPhoneNumber" required placeholder="กรอกเบอร์โทร">
+
+                    <label for="editAddress">ที่อยู่</label>
+                    <input type="text" name="editAddress" id="editAddress" required placeholder="กรอกที่อยู่">
+
+                    <button type="submit">Update</button>
+                    <button>Close</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Table for displaying customer -->
+        <h2>Customers List</h2>
+        <table id="CustomersTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>FristName</th>
+                    <th>LastName</th>
+                    <th>Email</th>
+                    <th>PhoneNumber</th>
+                    <th>Address</th>
+                    <th>CreateAt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Book rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

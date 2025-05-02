@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การจัดการ Event</title>
+</head>
+
+<body>
+    <h3>Bubbleing</h3>
+    <div id="parentDiv" style="border: 1px solid; padding: 10px;">
+        <button id="childButton">คลิกที่ฉัน</button>
+    </div>
+
+    <script>
+        document.getElementById("parentDiv").addEventListener("click", function () {
+            alert("คลิกที่ Parent Div!");
+        });
+
+        document.getElementById("childButton").addEventListener("click", function (event) {
+            alert("คลิกที่ Child Button!");
+            // event.stopPropagation(); // Uncomment ถ้าต้องการหยุดการ Bubbling
+        });
+    </script>
+
+    <h3>Capturing</h3>
+    <div id="parentDiv2" style="border: 1px solid; padding: 10px;">
+        <button id="childButton2">คลิกที่ฉัน</button>
+    </div>
+
+    <script>
+        document.getElementById("parentDiv2").addEventListener("click", function () {
+            alert("คลิกที่ Parent Div!");
+        },true);
+
+        document.getElementById("childButton2").addEventListener("click", function (event) {
+            alert("คลิกที่ Child Button!");
+            // event.stopPropagation(); // Uncomment ถ้าต้องการหยุดการ Bubbling
+        },true);
+    </script>
+</body>
+
+</html>

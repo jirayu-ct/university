@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\bin\Debug\OOPTutorial.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\bin\Debug\OOPTutorial.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\bin\Debug\OOPTutorial.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\obj\Debug\OOPTutorial.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\obj\Debug\OOPTutorial.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\obj\Debug\OOPTutorial.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\OOPTutorial\OOPTutorial\obj\Debug\OOPTutorial.pdb

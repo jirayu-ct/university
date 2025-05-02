@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation with Object</title>
+</head>
+<body>
+
+    <!-- 
+        4.	สร้าง Object ที่มีข้อมูลสำหรับรายการ เช่น name และ id. ใช้ Object นี้เพื่อสร้างรายการใน <ul> 
+            และให้แสดงชื่อเมื่อคลิกรายการ
+    -->
+
+    <ul id="myList"></ul>
+
+    <script>
+        const items = [
+            { id: 1, name: "รายการที่ 1" },
+            { id: 2, name: "รายการที่ 2" },
+            { id: 3, name: "รายการที่ 3" },
+        ];
+
+        items.forEach(item => {
+            const itemList = document.createElement('li');
+
+            itemList.textContent = item.id;
+            itemList.style.cursor = 'pointer';
+            itemList.dataset.id = item.id;
+
+            document.getElementById('myList').appendChild(itemList);
+        });
+
+        document.getElementById('myList').addEventListener('click', (even) => {
+            if (even.target.tagName === 'LI'){
+                const id = even.target.dataset.id;
+                const item = items.find(item => item.id == id);
+
+                even.target.textContent = `${item.id} ${item.name}`;
+            }
+        })
+    </script>
+</body>
+</html>

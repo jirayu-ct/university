@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Collection Example</title>
+</head>
+
+<body>
+    <div class="myClass">Item 1</div>
+    <div class="myClass">Item 2</div>
+    <div class="myClass">Item 3</div>
+
+    <script>
+        // สร้าง HTML Collection จาก getElementsByClassName
+        let items = document.getElementsByClassName("myClass");
+
+        // แสดงจำนวน Elements ใน Collection
+        console.log("จำนวน Elements: " + items.length);
+
+        // วนลูปผ่าน Elements และแสดงข้อความในแต่ละ DIV
+        for (let i = 0; i < items.length; i++) {
+            console.log(items[i].textContent);
+        }
+
+        // เพิ่ม DIV ใหม่เข้าไปใน Collection
+        let newDiv = document.createElement("div");
+        newDiv.className = "myClass";
+        newDiv.textContent = "Item 4";
+        document.body.appendChild(newDiv);
+
+        // แสดงจำนวน Elements ใน Collection หลังจากเพิ่ม
+        console.log("จำนวน Elements หลังจากเพิ่ม: " + items.length); // จะถูกอัปเดต
+    </script>
+</body>
+
+</html>

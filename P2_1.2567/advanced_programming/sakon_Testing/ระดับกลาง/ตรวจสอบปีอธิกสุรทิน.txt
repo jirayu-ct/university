@@ -1,0 +1,35 @@
+try
+{
+
+    Console.Write("Input year: ");
+    int year = int.Parse(Console.ReadLine());
+
+    if (year % 4 == 0)
+    {
+        if (year % 100 == 0)
+        {
+            if (year % 400 == 0)
+            {
+                Console.WriteLine("Leap Year");
+            }
+            else
+            {
+                Console.WriteLine("Not a Leap Year");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Leap Year");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Not a Leap Year");
+    }
+}
+catch (FormatException)
+{
+    Console.WriteLine("Iinvalid Format, Only Number!!");
+}
+
+Console.ReadKey();

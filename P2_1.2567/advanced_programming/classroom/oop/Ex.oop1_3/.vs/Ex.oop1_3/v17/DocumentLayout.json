@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\Ex.oop1_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36E39D51-5418-4548-8BFF-EA896FDD78E4}|Ex.oop1_3\\Ex.oop1_3.csproj|e:\\githup\\subjects\\p2_1.2567\\advanced_programming\\classroom\\oop\\ex.oop1_3\\ex.oop1_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E39D51-5418-4548-8BFF-EA896FDD78E4}|Ex.oop1_3\\Ex.oop1_3.csproj|solutionrelative:ex.oop1_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\Ex.oop1_3\\Ex.oop1_3\\Program.cs",
+              "RelativeDocumentMoniker": "Ex.oop1_3\\Program.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\classroom\\oop\\Ex.oop1_3\\Ex.oop1_3\\Program.cs",
+              "RelativeToolTip": "Ex.oop1_3\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T04:50:41.116Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

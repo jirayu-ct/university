@@ -1,0 +1,15 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\bin\Debug\net8.0\Phase3_OOP_Turial.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\bin\Debug\net8.0\Phase3_OOP_Turial.deps.json
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\bin\Debug\net8.0\Phase3_OOP_Turial.runtimeconfig.json
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\bin\Debug\net8.0\Phase3_OOP_Turial.dll
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\bin\Debug\net8.0\Phase3_OOP_Turial.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.AssemblyInfoInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.AssemblyInfo.cs
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.sourcelink.json
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.dll
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\refint\Phase3_OOP_Turial.dll
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\Phase3_OOP_Turial.genruntimeconfig.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase3_OOP_Turial\Phase3_OOP_Turial\obj\Debug\net8.0\ref\Phase3_OOP_Turial.dll

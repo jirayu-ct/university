@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\bin\Debug\oop_online.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\bin\Debug\oop_online.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\bin\Debug\oop_online.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\obj\Debug\oop_online.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\obj\Debug\oop_online.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\obj\Debug\oop_online.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\oop_online\oop_online\obj\Debug\oop_online.pdb

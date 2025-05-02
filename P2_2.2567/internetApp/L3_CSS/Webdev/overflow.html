@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            width: 300px;
+            height: 150px;
+            border: 2px solid #000;
+            margin-bottom: 20px;
+            padding: 10px;
+            overflow: visible; /* Change this value to see different effects */
+            background-color: #f6f6f6;
+        }
+
+        .content {
+            width: 300px;
+            height: 200px; /* Content height exceeds container height */
+            background-color: #cce5ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Overflow Example</h1>
+
+    <div class="container">
+        <div class="content">
+            This is some content that is too tall for its container. It demonstrates how overflow works in CSS. Adjust the <code>overflow</code> property in the CSS to see different behaviors!
+        </div>
+    </div>
+</body>
+</html>

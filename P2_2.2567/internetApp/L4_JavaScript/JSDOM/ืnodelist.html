@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node List Example</title>
+</head>
+
+<body>
+    <ul id="myList">
+        <li>รายการ 1</li>
+        <li>รายการ 2</li>
+        <li>รายการ 3</li>
+    </ul>
+
+    <script>
+        // สร้าง Node List จาก querySelectorAll
+        let items = document.querySelectorAll("#myList li");
+
+        // แสดงข้อความในแต่ละรายการ
+        items.forEach(function (item) {
+            console.log(item.textContent);
+        });
+    </script>
+</body>
+
+</html>

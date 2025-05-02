@@ -1,0 +1,72 @@
+try
+{
+    float result = 0;
+
+    Console.Write("Enter Number1: ");
+    float num1 = float.Parse(Console.ReadLine());
+
+    Console.Write("Enter Number2: ");
+    float num2 = float.Parse(Console.ReadLine());
+
+    Console.Write("Enter Operator(+, -, *, /) >>> ");
+    string select = Console.ReadLine();
+
+    if (Chack_oparator(select))
+    {
+        //Console.WriteLine("-------My Calculator-------");
+        //result = Calculator(num1, num2, select);
+        switch (select)
+        {
+            case "+":
+                result = num1 + num2;
+                break;
+
+            case "-":
+                result = num1 - num2;
+                break;
+
+            case "*":
+                result = num1 * num2;
+                break;
+
+            case "/":
+                result = num2 / num1;
+                break;
+
+        }
+
+        if (num2 == 0)
+        {
+            Console.WriteLine("Error: Number2 can't Zero!!");
+        }
+        else
+        {
+            Console.WriteLine("{0} {1} {2} = {3}", num1, select, num2, result);
+        }
+    }
+    else
+    {
+        Console.WriteLine("Error: Please Enter Operator(+, -, *, /)");
+    }
+
+}
+catch (FormatException)
+{
+    Console.WriteLine("Iinvalid Format, Only Number!!");
+}
+
+Console.ReadKey();
+
+
+///metod///
+static bool Chack_oparator(string select)
+{
+    if ((select == "+") || (select == "-") || (select == "*") || (select == "/"))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}

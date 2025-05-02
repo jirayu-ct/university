@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\bin\Debug\arrayList.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\bin\Debug\arrayList.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\bin\Debug\arrayList.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\obj\Debug\arrayList.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\obj\Debug\arrayList.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\obj\Debug\arrayList.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\arrayList\arrayList\obj\Debug\arrayList.pdb

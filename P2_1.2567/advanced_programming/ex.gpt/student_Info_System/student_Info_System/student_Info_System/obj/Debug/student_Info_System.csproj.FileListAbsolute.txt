@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\obj\Debug\student_Info_System.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\obj\Debug\student_Info_System.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\bin\Debug\student_Info_System.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\bin\Debug\student_Info_System.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\bin\Debug\student_Info_System.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\obj\Debug\student_Info_System.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\ex.gpt\student_Info_System\student_Info_System\student_Info_System\obj\Debug\student_Info_System.pdb

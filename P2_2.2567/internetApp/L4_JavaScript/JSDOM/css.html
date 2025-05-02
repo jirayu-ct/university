@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a id="lnkBRU" href="#">BRU Website</a>
+    <script>
+        // -- แก้ไข Attribute ของ Element
+
+        document.getElementById("lnkBRU").href = "https://www.bru.ac.th";
+
+        // -- แก้ไข CSS Style
+        
+        document.getElementById("lnkBRU").style.color = "green";
+    </script>
+</body>
+
+<style>
+    .highlight {
+        background-color: yellow;
+        font-weight: bold;
+    }
+</style>
+
+<div id="myDiv">ข้อความเดิม</div>
+<button id="highlightButton">ทำให้เด่น</button>
+<script>
+    document.getElementById("highlightButton").addEventListener("click", function () {
+        document.getElementById("myDiv").classList.toggle("highlight");
+    });
+</script>
+
+</html>

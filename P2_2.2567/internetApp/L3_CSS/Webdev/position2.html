@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .static {
+            position: static;
+            background-color: gray;
+            margin: 20px;
+            left: 20px
+        }
+
+        .relative {
+            position: relative;
+            background-color: aquamarine;
+            margin: 20px;
+            left: 20px
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: chocolate;
+            top: 0px;
+            right: 0px;
+        }
+
+        .fix{
+            position: fixed;
+            background-color: greenyellow;
+            top: 0px;
+            left: 5px;
+        }
+        .sticky{
+            position: sticky;
+            background-color: darkmagenta;
+            top:10px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        CSS Position
+    </h1>
+    <div class="box">
+        <div class="static">Static</div>
+        <div class="relative">Relative</div>
+        <div class="absolute">Absolute</div>
+        <div class="fix">Fix</div>
+        <div class="sticky">Sticky</div>
+    </div>
+    
+
+
+</body>
+
+</html>

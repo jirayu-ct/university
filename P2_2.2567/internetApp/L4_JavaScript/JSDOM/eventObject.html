@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="myButton">Show event object</button>
+    <script>
+        const button=document.getElementById("myButton");
+        button.addEventListener("click", function (event) {
+            console.log("Element ที่ถูกคลิก: ", event.target);
+            console.log("กลุ่ม Event: ", event);
+        });
+    </script>
+</body>
+
+</html>

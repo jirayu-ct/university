@@ -1,0 +1,23 @@
+try
+{
+    float  result;
+
+    Console.Write("Input your Electricity unit: ");
+    float unit = float.Parse(Console.ReadLine());
+
+    if (unit < 150)
+    {
+        result = unit * 3;
+    }
+    else
+    {
+        result = unit * 4;
+    }
+    Console.Write("Electricity bill {0} bath", result);
+}
+catch(FormatException)
+{
+    Console.WriteLine("Iinvalid Format, Only Number!!");
+}
+
+Console.ReadKey();

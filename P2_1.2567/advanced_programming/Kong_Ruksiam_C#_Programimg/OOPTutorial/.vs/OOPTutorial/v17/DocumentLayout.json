@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\ooptutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|solutionrelative:ooptutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\ooptutorial\\accounting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|solutionrelative:ooptutorial\\accounting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|e:\\githup\\subjects\\p2_1.2567\\advanced_programming\\kong_ruksiam_c#_programimg\\ooptutorial\\ooptutorial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|solutionrelative:ooptutorial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\ooptutorial\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|solutionrelative:ooptutorial\\it.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\ooptutorial\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172EE570-03C2-496A-9D4F-83111C4557D3}|OOPTutorial\\OOPTutorial.csproj|solutionrelative:ooptutorial\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Program.cs",
+              "RelativeDocumentMoniker": "OOPTutorial\\Program.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Program.cs",
+              "RelativeToolTip": "OOPTutorial\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:28:53.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Employee.cs",
+              "RelativeDocumentMoniker": "OOPTutorial\\Employee.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Employee.cs",
+              "RelativeToolTip": "OOPTutorial\\Employee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:32:08.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Accounting.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Accounting.cs",
+              "RelativeDocumentMoniker": "OOPTutorial\\Accounting.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Accounting.cs",
+              "RelativeToolTip": "OOPTutorial\\Accounting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:43:08.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Sale.cs",
+              "RelativeDocumentMoniker": "OOPTutorial\\Sale.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\Sale.cs",
+              "RelativeToolTip": "OOPTutorial\\Sale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:43:44.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IT.cs",
+              "DocumentMoniker": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\IT.cs",
+              "RelativeDocumentMoniker": "OOPTutorial\\IT.cs",
+              "ToolTip": "E:\\githup\\subjects\\P2_1.2567\\advanced_programming\\Kong_Ruksiam_C#_Programimg\\OOPTutorial\\OOPTutorial\\IT.cs",
+              "RelativeToolTip": "OOPTutorial\\IT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T06:03:54.227Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

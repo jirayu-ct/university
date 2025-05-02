@@ -1,0 +1,82 @@
+try
+{
+    Console.WriteLine("----->enter number<-----");
+    Console.Write("0=Rock, 1=Paper, 2=Scissors>> ");
+    int num_user = Convert.ToInt32(Console.ReadLine());
+
+    string[] Rock_Paper_Scissors = { "ค้อน", "กระดาษ", "กรรไกร" };
+
+    Random random = new Random();
+    int result = random.Next(0, Rock_Paper_Scissors.Length);
+
+    if (num_user < 3)
+    {
+        if (num_user == result)
+        {
+            Console.WriteLine("------>always!!<------");
+
+            Console.Write("Random: ");
+            Show_random(result);
+
+            Console.Write("User: ");
+            Show_random(num_user);
+        }
+        else
+        {
+            if ((num_user == 0 && result == 1) || (num_user == 1 && result == 2) || (num_user == 2 && result == 0))
+            {
+                char result_Char = (char)result;
+
+                Console.WriteLine("--->Your are Lose!!<---");
+
+                Console.Write("Random: ");
+                Show_random(result);
+
+                Console.Write("User: ");
+                Show_random(num_user);
+            }
+            else
+            {
+                Console.WriteLine("--->Your are win!!<---");
+
+                Console.Write("Random: ");
+                Show_random(result);
+
+                Console.Write("User: ");
+                Show_random(num_user);
+            }
+        }
+    }
+    else
+    {
+        Console.WriteLine("Error: enter 0-2");
+    }
+}
+catch (FormatException)
+{
+    Console.WriteLine("Iinvalid Format, Only Number!!");
+}
+
+Console.ReadKey();
+
+
+///Medtod///
+static void Show_random(int result)
+{
+    switch (result)
+    {
+        case 0:
+            Console.WriteLine("Rock");
+            break;
+        case 1:
+            Console.WriteLine("Paper");
+            break; 
+        case 2:
+            Console.WriteLine("Scissors");
+            break ;
+        default:
+            Console.WriteLine("Error: enter 0-2");
+            break;
+        
+    }
+}

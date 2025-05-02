@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom 1</title>
+</head>
+<body>
+
+    <!-- 
+        1. สร้างปุ่มใน HTML และเขียน JavaScript เมื่อคลิกที่ปุ่มนั้น ให้แสดงข้อความ "ปุ่มถูกคลิก!"  ใน Tag <div> 
+    -->
+
+    <button id="btn">click me</button>
+    <div id="text-btn" ></div>
+
+    <script>
+        document.getElementById('btn').addEventListener('click', (even) => {
+            const textBtn = document.getElementById('text-btn');
+            const p = document.createElement('p');
+            p.innerHTML = "ปุ่มถูกคลิก";
+
+            textBtn.appendChild(p);
+        })
+    </script>
+</body>
+</html>

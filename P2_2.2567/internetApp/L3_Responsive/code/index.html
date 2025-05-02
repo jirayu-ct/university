@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(29, 209, 209);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 30px;
+            text-align: center;
+            font-size: 2rem;
+            background-color: white;
+        }
+        header p{
+            font-size: 1rem;
+            padding: 0;
+            margin: 0;
+        }
+        .left{
+            display: inline-block;
+            width: 20%;
+            background-color: red;
+        }
+        .main{
+            display: inline-block;
+            width: 58%;
+            background-color: green;
+        }
+        .right{
+            display: inline-block;
+            width: 20%;
+            background-color: blue;
+        }
+        img{
+            width: 5%;
+        }
+
+        @media screen and (max-width:600px) {
+            body {
+                background-color: white;
+            }
+            header{
+                background-color: black;
+                color: white;
+            }
+            .left, .main, .right{
+                width: 100%;
+                display: block;
+            }
+            header p{
+                display: none;
+            }
+            img{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Logo.jpg" alt="">
+        Responsive Design Webside
+        <p>Welcome to my Webside</p>
+    </header>
+    
+    <article>
+        <div class="left">left Content</div>
+        <div class="main">main content</div>
+        <div class="right">right content</div>
+    </article>
+</body>
+
+</html>

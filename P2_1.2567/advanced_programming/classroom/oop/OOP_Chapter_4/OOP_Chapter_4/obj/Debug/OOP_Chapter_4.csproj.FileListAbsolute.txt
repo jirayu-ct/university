@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\bin\Debug\OOP_Chapter_4.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\bin\Debug\OOP_Chapter_4.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\bin\Debug\OOP_Chapter_4.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\obj\Debug\OOP_Chapter_4.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\obj\Debug\OOP_Chapter_4.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\obj\Debug\OOP_Chapter_4.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4\OOP_Chapter_4\obj\Debug\OOP_Chapter_4.pdb

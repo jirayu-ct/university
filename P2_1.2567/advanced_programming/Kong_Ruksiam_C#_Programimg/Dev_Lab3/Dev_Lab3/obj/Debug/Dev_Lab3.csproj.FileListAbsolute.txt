@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\bin\Debug\Dev_Lab3.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\bin\Debug\Dev_Lab3.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\bin\Debug\Dev_Lab3.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\obj\Debug\Dev_Lab3.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\obj\Debug\Dev_Lab3.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\obj\Debug\Dev_Lab3.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Dev_Lab3\Dev_Lab3\obj\Debug\Dev_Lab3.pdb

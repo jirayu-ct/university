@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="demo">text</p>
+    <h2>JavaScript</h2>
+    <p>My First Paragraph.</p>
+    
+
+    <button onclick="document.getElementById('demo').innerHTML = 'Jirayu'">Click</button>
+
+    <script>
+        // html output
+        document.write("Hello, World!");
+
+        //browser console
+        console.log("Hello, World!");
+
+        // window alert
+        //alert('Hello, World!')
+
+        // html element
+        //document.getElementById("demo").innerHTML = "Jirayu";
+
+        let sname = "jirayu";
+        let age = 20;
+        console.log(sname + age);
+
+        class Person{
+            constructor(name, age, job){
+                this._name = name;
+                this._age = age;
+                this._job = job;
+            }
+            fullName(_name, _age, _job) {
+                return `${this._name} is ${this._age} years old and works as a ${this._job}.`;
+            }
+        }
+
+        let p1 = new Person();
+        p1.name = "jirayu";
+
+        let p2 = new Person("jav", 50, "IT")
+        console.log(p2.fullName())
+
+        let isActive = true;
+        console.log(isActive && 5==6) //false
+
+        let job = (p2._job == "IT" && p2._age >= 30 ) ? 'Senior' : 'Junior';
+        console.log(job);
+
+        //arrow function
+        const isEvent = (num) => { return (num%2 == 0) ? 'Yes': 'No'};
+
+        console.log(isEvent(510));
+
+        let numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+
+        numbers.push(100);
+
+        let evenNumber = numbers.filter(num => num >= 40);
+        console.log(evenNumber);
+
+        const sum = numbers.reduce((total, currentValue) => {return total + currentValue}, 0);
+        console.log(sum);
+
+        // map สร้างอาเรย์ที่มีเฉพาะชื่อตัวแรกของชื่อ
+        let tname = ["Ann", "Ben", "dev", "ton"];
+        let tname2 = tname.map(data => data.charAt(0));
+
+        const Mymap = (tnameMap) => {return tnameMap.charAt(0);}
+        let tname3 = tname.map(Mymap);
+
+        console.log(tname2);
+        console.log(tname3);
+    </script>
+</body>
+</html>

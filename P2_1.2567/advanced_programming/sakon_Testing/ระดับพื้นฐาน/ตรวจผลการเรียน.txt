@@ -1,0 +1,28 @@
+try
+{
+    Console.Write("Input your score: ");
+    float score = float.Parse(Console.ReadLine());
+
+    if(score >= 0 && score <= 100)
+    {
+        if (score >= 50)
+        {
+            Console.WriteLine("Passed the exam");
+        }
+        else
+        {
+            Console.WriteLine("Failed the exam");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Error: Please input score 0-100");
+    }
+    
+}
+catch (FormatException)
+{
+    Console.WriteLine("Iinvalid Format, Only Number!!");
+}
+
+Console.ReadKey();

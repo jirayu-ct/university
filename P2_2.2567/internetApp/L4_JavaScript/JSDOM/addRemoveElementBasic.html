@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เพิ่มและลบ Element</title>
+</head>
+
+<body>
+    <button onclick="addItem()">เพิ่มรายการ</button>
+    <button onclick="removeItem()">ลบรายการล่าสุด</button>
+    <ul id="myList">
+        <li>รายการที่ 1</li>
+        <li>รายการที่ 2</li>
+    </ul>
+
+    <script>
+        function addItem() {
+            // -- สร้าง Element ใหม่
+            let newItem = document.createElement("li");
+            newItem.textContent = "รายการใหม่";
+            // เพิ่ม Element ที่สร้างใหม่เข้าไปใน ul
+            document.getElementById("myList").appendChild(newItem)
+        }
+        function removeItem() {
+            let item = document.getElementById("myList");
+            
+            if (item.childNodes.length > 0) {
+                // ลบ Element สุดท้าย
+                item.removeChild(item.lastChild);                
+            }
+        }
+    </script>
+
+</body>
+
+</html>

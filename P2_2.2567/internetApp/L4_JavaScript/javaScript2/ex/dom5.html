@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- 
+        5.	สร้างฟอร์มที่มีช่องป้อนข้อมูลข้อความและเลือกประเภทดังภาพด้านล่าง โดยเมื่อส่งฟอร์มจะบันทึกค่าที่ป้อนลงใน Object 
+            และแสดงค่าใน DOM (เนื้อหา Form Event) 
+    -->
+
+    <div class="container justify-items-center mx-auto px-4 m-5">
+        <form id="form" class="flex flex-col gap-2 w-[400px] shadow-lg p-4 rounded-md bg-white ">
+            <input type="text" id="text-box" placeholder="ป้อนข้อความ" class="p-2 rounded-md border">
+            <select id="select" class="p-2 rounded-md border">
+                <option value="" disabled selected>Select an option</option>
+                <option value="Option A">Option A</option>
+                <option value="Option B">Option B</option>
+                <option value="Option C">Option C</option>
+            </select>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">ส่งข้อความ</button>
+            <div id="text-form"></div>
+        </form>
+        
+    </div>
+
+    <script>
+        document.getElementById('form').addEventListener('submit', (even) => {
+            even.preventDefault();
+
+            const textBox = document.getElementById('text-box');
+            const select = document.getElementById('select');
+
+            if (textBox.value.trim() === '' || select.value === '') return;
+
+            const textForm = document.createElement('p');
+            textForm.className = 'border rounded-md p-2 mt-2';
+            textForm.textContent = `
+                Message: ${textBox.value}, Type: ${select.value}
+            `
+            document.getElementById('text-form').appendChild(textForm);
+
+            textBox.value = '';
+            select.value = '';
+        })
+    </script>
+</body>
+
+</html>

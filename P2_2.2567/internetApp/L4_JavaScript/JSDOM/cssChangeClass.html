@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+
+    <div id="myDiv">ข้อความเดิม</div>
+    <button id="highlightButton" onclick="highlight()">ทำให้เด่น</button>
+
+    <script>
+        function highlight() {
+            document.getElementById("myDiv").classList.toggle("highlight");
+        }
+
+//        element.classList.add("newClass"); // เพิ่ม class
+  //      element.classList.remove("oldClass"); // ลบ class
+    //    element.classList.toggle("changeClass"); // เปลี่ยน class
+    
+    </script>
+
+    <!-- <script>
+        document.getElementById("highlightButton").addEventListener("click", function () {
+            document.getElementById("myDiv").classList.toggle("highlight");
+        });
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\bin\Debug\test.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\bin\Debug\test.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\bin\Debug\test.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\obj\Debug\test.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\obj\Debug\test.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\sakon_Testing\test\test\test\obj\Debug\test.pdb

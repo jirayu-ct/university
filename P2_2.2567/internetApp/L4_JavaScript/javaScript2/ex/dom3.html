@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element form Object</title>
+</head>
+
+<body>
+    <!-- 
+        3.	สร้าง Object ที่มีข้อมูลเกี่ยวกับ Element ต่างๆ (เช่น id, className, content). 
+            ใช้ Object นี้เพื่อสร้าง Element ใหม่ใน DOM ที่มีข้อมูลจาก Object 
+    -->
+    <button id="createButton">create</button>
+    <div id="container"></div>
+
+    <script>
+        const newElement = {
+            id: "660112230038",
+            name: "Jirayu Chomthong",
+            content: "Hahaha, This story is also quite fun."
+        };
+
+        
+        document.getElementById('createButton').addEventListener('click', () => {
+            const container = document.getElementById('container');
+            const newData = document.createElement('p');
+
+            newData.innerHTML = `
+                ID Student: ${newElement.id}<br>
+                Name: ${newElement.name}<br>
+                Content: ${newElement.content}
+            `;
+
+            container.appendChild(newData);
+        });
+    </script>
+</body>
+
+</html>

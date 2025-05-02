@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\bin\Debug\dataTabel.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\bin\Debug\dataTabel.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\bin\Debug\dataTabel.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\obj\Debug\dataTabel.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\obj\Debug\dataTabel.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\obj\Debug\dataTabel.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\collections\dataTabel\dataTabel\obj\Debug\dataTabel.pdb

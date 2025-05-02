@@ -1,0 +1,39 @@
+int number = 0;
+
+Random random = new Random();
+int random_number = random.Next(1, 101);
+
+while (true)
+{
+    try
+    {
+        Console.Write("Input Number>> ");
+        number = int.Parse(Console.ReadLine());
+
+        if (number > random_number)
+        {
+            Console.WriteLine("Too high!!");
+        }
+        else if (number < random_number)
+        {
+            Console.WriteLine("Too low!!");
+        }
+        else
+        {
+            break;
+        }
+    }
+    catch (FormatException)
+    {
+        Console.WriteLine("Iinvalid Format, Only Number!!");
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("Error!!!");
+    }
+}
+Console.WriteLine();
+Console.WriteLine("--->>Your are win<<---");
+Console.WriteLine("Random number = {0}", random_number);
+
+Console.ReadKey();

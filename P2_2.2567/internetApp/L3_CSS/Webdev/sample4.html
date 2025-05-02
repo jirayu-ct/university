@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            font-size: 1.5em;
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: dimgrey;
+
+        }
+
+        nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: black;
+            background-color: antiquewhite;
+        }
+
+        .main {
+            padding: 20px;
+            width: 60%;
+            background-color: antiquewhite;
+            float: left;
+        }
+
+        .main::first-letter{
+            font-size: 40px;
+        }
+
+        .left {
+            padding: 20px;
+            width: 20%;
+            background-color: aquamarine;
+            float: left;
+        }
+
+        .right {
+            padding: 20px;
+            width: 20%;
+            background-color: aquamarine;
+            float: left;
+        }
+
+
+        @media screen and (max-width:600px) {
+
+            .main,
+            .left,
+            .right {
+                width: 100%;
+            }
+        }
+
+        #imgCoding {
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            float: left;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+        <p>การพัฒนาโปรแกรมบนอินเทอร์เน็ต</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tops</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="left">
+        <h2>Side bar</h2>
+        <p>side bar หรือแถบด้านข้าง เป็นองค์ประกอบการออกแบบและการจัดวางที่พบบ่อยในเว็บไซต์ แอปพลิเคชัน
+            และอินเทอร์เฟซผู้ใช้อื่นๆ</p>
+    </div>
+    <div class="main">
+        <!-- <h2>Main Content</h2> -->
+        <p><img id="imgCoding" src="coding.jpg" alt="Coding"> Main content หรือเนื้อหาหลัก
+            คือส่วนสำคัญที่สุดของหน้าเว็บหรือแอปพลิเคชัน
+            ซึ่งมักอยู่ตรงกลางและครอบคลุมพื้นที่ส่วนใหญ่ของหน้า เป็นที่รวมของข้อมูลสำคัญ บทความ หรือสื่อต่างๆ
+            ที่เป็นจุดประสงค์หลักของหน้านั้นๆ และเป็นเหตุผลหลักที่ผู้ใช้เข้ามาชม การออกแบบ Main content
+            ต้องดึงดูดสายตา อ่านง่าย และแยกออกจากส่วนอื่นๆ อย่างชัดเจน
+            นอกจากนี้ยังต้องปรับแต่งให้แสดงผลได้ดีบนอุปกรณ์ต่างๆ และมีความสำคัญอย่างมากสำหรับการทำ SEO
+            เนื่องจากเป็นส่วนที่เครื่องมือค้นหาให้ความสำคัญในการจัดอันดับ</p>
+        <p>ในการออกแบบและพัฒนาเว็บไซต์หรือแอปพลิเคชัน การให้ความสำคัญกับ Main content เป็นสิ่งจำเป็น
+            เพราะเป็นส่วนที่สร้างคุณค่าให้กับผู้ใช้ การจัดวางเนื้อหาอย่างเหมาะสม การใช้ตัวอักษรที่อ่านง่าย
+            และการเลือกใช้สีที่สบายตาจะช่วยเพิ่มประสิทธิภาพในการสื่อสารข้อมูล นอกจากนี้ การทำให้ Main content
+            เข้าถึงได้ง่ายและรวดเร็วยังช่วยปรับปรุงประสบการณ์ผู้ใช้ (User Experience)
+            ซึ่งส่งผลโดยตรงต่อความพึงพอใจของผู้เข้าชมและอัตราการกลับมาใช้งานซ้ำ ดังนั้น
+            การให้ความสำคัญกับการพัฒนาและปรับปรุง Main content
+            อย่างต่อเนื่องจึงเป็นกลยุทธ์สำคัญในการสร้างความสำเร็จให้กับเว็บไซต์หรือแอปพลิเคชัน</p>
+    </div>
+    <div class="right">
+        <h2>Aside</h2>
+        Right content
+    </div>
+</body>
+
+</html>

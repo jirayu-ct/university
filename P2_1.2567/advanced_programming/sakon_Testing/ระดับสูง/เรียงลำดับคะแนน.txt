@@ -1,0 +1,29 @@
+int cout = 0;
+
+float[] score = new float[3];
+
+while (cout < score.Length)
+{
+    try
+    {
+        Console.Write("Score {0}: ", cout + 1);
+        score[cout] = float.Parse(Console.ReadLine());
+
+        cout++;
+    }
+    catch (FormatException)
+    {
+        Console.WriteLine("Iinvalid Format, Only Number!!");
+    }
+}
+
+Array.Sort(score);
+Array.Reverse(score);
+
+Console.Write("Score Descending>> ");
+foreach (int num_arr in score)
+{
+    Console.Write(num_arr + " ");
+}
+
+Console.ReadKey();

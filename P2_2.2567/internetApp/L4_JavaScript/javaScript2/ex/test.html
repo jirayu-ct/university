@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <div class="container justify-items-center mx-auto px-4 m-5">
+        <div class="p-4 text-center shadow-lg w-[400px] rounded-md bg-white mx-auto">
+            <h1 class="text-4xl mb-4 font-bold">To-Do List</h1>
+            
+            <!-- เปลี่ยนจาก form เป็น div เพื่อป้องกันการ refresh หน้า -->
+            <div class="flex gap-2 mb-4">
+                <input type="text" 
+                       id="taskInput" 
+                       class="p-2 rounded-md border w-full" 
+                       placeholder="Add a new task">
+                <button onclick="addTask()" 
+                        class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+                    Add
+                </button>
+            </div>
+
+            <!-- ส่วนแสดงรายการ Todo -->
+            <div id="taskList" class="text-left">
+                <!-- รายการ Todo จะถูกเพิ่มที่นี่ด้วย JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ฟังก์ชันเพิ่มงาน
+        function addTask() {
+            const taskInput = document.getElementById('taskInput');
+            const taskList = document.getElementById('taskList');
+            
+            if (taskInput.value.trim() === '') return; // ไม่เพิ่มถ้าช่องว่างเปล่า
+
+            // สร้าง element ใหม่สำหรับงาน
+            const taskDiv = document.createElement('div');
+            taskDiv.className = 'flex justify-between items-center p-2 border-b hover:bg-gray-50';
+            
+            taskDiv.innerHTML = `
+                <span>${taskInput.value}</span>
+                <button onclick="this.parentElement.remove()" 
+                        class="text-red-500 hover:text-red-700">
+                    Delete
+                </button>
+            `;
+
+            // เพิ่มงานใหม่ลงในรายการ
+            taskList.appendChild(taskDiv);
+            
+            // ล้างช่องinput
+            taskInput.value = '';
+        }
+
+        // เพิ่ม Event Listener สำหรับปุ่ม Enter
+        document.getElementById('taskInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                addTask();
+            }
+        });
+    </script>
+</body>
+</html>

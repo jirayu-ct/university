@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function navHamburger(){
+            var x = document.getElementById("nav")
+            if(x.className === "navbar"){
+                x.className += " nav-hamburger";
+            }
+            else{
+                x.className = "navbar";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    
+    <header class="nav-head">4 ภูเขาน่าเที่ยวหน้าหนาว</header>
+    <!-- <img src="images/headder.jpg" alt="" class="img-head"> -->
+    <nav class="navbar" id="nav">
+        <a href="#index" class="nav-link active">หน้าแรก</a>
+        <a href="#" class="nav-link">สถานที่ท่องเที่ยว</a>
+        <a href="#" class="nav-link">ติดต่อ</a>
+        <a href="javascript:void(0);" class="icon" onclick="navHamburger()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <div class="container">
+        <div class="main-container">
+            <div class="item">
+                <img src="images/doy_ang_khang.jpg" alt="ดอยอ่างขาง">
+                <h3>ดอยอ่างขาง</h3>
+                <p>ดอยอ่างขางเป็นที่เที่ยวยอดนิยม
+                    ภายในสถานีซึ่งมีแปลงสาธิต แปลงวิจัยพืชผัก ผลไม้เมืองหนาว อีกทั้งสวนดอกไม้ที่งดงาม
+                    โดยเฉพาะต้นนางพญาเสือโคร่งซึ่งจะพากันเบ่งบานท้าลมหนาว และไร่สตรอว์เบอร์รี่กว้างที่สามารถเก็บผลสดๆ
+                    ได้จากต้น
+                </p>
+                <a href="#">อ่านเพิ่มเติม</a>
+            </div>
+            <div class="item">
+                <img src="images/doy_samer_dao.jpg" alt="ดอยเสมอดาว">
+                <h3>ดอยเสมอดาว</h3>
+                <p>ดอยเสมอดาวมีลักษณะเป็นลานกว้างสามารถกางเต็นท์พักแรมได้
+                    เป็นจุดชมพระอาทิตย์ขึ้นและพระอาทิตย์ตกที่สวยมากแห่งหนึ่ง
+                    และแน่นอนว่าในตอนเช้ามีทะเลหมอกให้ได้ชมกันด้วย
+                    ส่วนในตอนกลางคืนนั้นสามารถชมทะเลดาวที่ระยิบระยับทั่วฟ้า พร้อมสัมผัสอากาศหนาวเย็น
+                </p>
+                <a href="#">อ่านเพิ่มเติม</a>
+            </div>
+            <div class="item">
+                <img src="images/phu_chi_fa.jpg" alt="ภูชี้ฟ้า">
+                <h3>ภูชี้ฟ้า</h3>
+                <p>
+                    ภูชี้ฟ้า คือจุดชมวิวพระอาทิตย์ขึ้นที่สวยที่สุดแห่งหนึ่งของประเทศไทย
+                    ด้วยยอดเขาที่มีลักษณะเป็นยอดแหลมชี้ขึ้นไปบนฟ้า สามารถขึ้นไปยังจุดชมวิวได้ในตอนเช้ามืด
+                    เพื่อชมพระอาทิตย์ขึ้นและชมทิวทัศน์ของทะเลหมอกในหุบเขา รวมถึงดอกไม้สวยงาม
+                </p>
+                <a href="#">อ่านเพิ่มเติม</a>
+            </div>
+            <div class="item">
+                <img src="images/doy_inthanon.jpg" alt="ดอยอินทนนท์">
+                <h3>ดอยอินทนนท์</h3>
+                <p>
+                    ดอยอินทนนท์ จังหวัดเชียงใหม่ เป็นยอดดอยที่สูงที่สุดในประเทศไทย
+                    บนดอยอินทนน์ยังเต็มไปด้วยสถานที่ท่องเที่ยวน่าสนใจมากมาย ทั้งเส้นทางศึกษาธรรมชาติอ่างกาหลวง
+                    น้ำตกขนาดใหญ่หลายแห่งที่มีน้ำไหลตลอดทั้งปี สถานีวิจัยโครงการหลวงอินทนนท์
+                </p>
+                <a href="#">อ่านเพิ่มเติม</a>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 ทุกสิทธิ์ถูกสงวน | ติดต่อเรา: <span class="email-text">jiaryu.ct05@gmail.com</span></p>
+    </footer>
+</body>
+
+</html>

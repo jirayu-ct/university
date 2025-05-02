@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\bin\Debug\Phase1.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\bin\Debug\Phase1.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\bin\Debug\Phase1.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\obj\Debug\Phase1.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\obj\Debug\Phase1.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\obj\Debug\Phase1.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\Kong_Ruksiam_C#_Programimg\Phase1\Phase1\obj\Debug\Phase1.pdb

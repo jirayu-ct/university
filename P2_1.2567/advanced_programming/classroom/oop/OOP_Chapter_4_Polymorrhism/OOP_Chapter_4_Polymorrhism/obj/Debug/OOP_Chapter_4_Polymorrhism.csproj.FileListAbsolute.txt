@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\bin\Debug\OOP_Chapter_4_Polymorrhism.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\bin\Debug\OOP_Chapter_4_Polymorrhism.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\bin\Debug\OOP_Chapter_4_Polymorrhism.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\obj\Debug\OOP_Chapter_4_Polymorrhism.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\obj\Debug\OOP_Chapter_4_Polymorrhism.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\obj\Debug\OOP_Chapter_4_Polymorrhism.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_4_Polymorrhism\OOP_Chapter_4_Polymorrhism\obj\Debug\OOP_Chapter_4_Polymorrhism.pdb

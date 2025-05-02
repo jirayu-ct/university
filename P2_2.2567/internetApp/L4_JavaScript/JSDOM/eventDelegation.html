@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation Example</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: lightblue;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>รายการอาหาร</h1>
+    <ul id="foodList">
+        <li>พิซซ่า</li>
+        <li>ฮอทดอก</li>
+        <li>สลัด</li>
+        <li>เบอร์เกอร์</li>
+        <li>ข้าวผัด</li>
+    </ul>
+
+    <script>
+        // ใช้ Event Delegation โดยการเพิ่ม Event Listener ให้กับ <ul>
+        const foodList = document.getElementById('foodList');
+
+        foodList.addEventListener('click', function(event) {
+            // ตรวจสอบว่า User คลิกที่ <li>
+            if (event.target.tagName === 'LI') {
+                // แสดงชื่ออาหารที่ถูกคลิก
+                alert(`คุณได้เลือก: ${event.target.textContent}`);
+            }
+        });
+    </script>
+</body>
+</html>

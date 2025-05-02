@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\bin\Debug\OOP3.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\bin\Debug\OOP3.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\bin\Debug\OOP3.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\obj\Debug\exercise.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\obj\Debug\exercise.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\obj\Debug\OOP3.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\OOP_Chapter_3\OOP3\obj\Debug\OOP3.pdb

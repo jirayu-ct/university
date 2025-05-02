@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event Example</title>
+</head>
+
+<body>
+    <form id="myForm">
+        <input type="text" id="name" placeholder="กรุณาใส่ชื่อ" required>
+        <button type="submit">ส่ง</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('myForm');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault(); // ป้องกันการส่งฟอร์ม
+            const name = document.getElementById('name').value;
+            alert('สวัสดี, ' + name + '!');
+        });
+    </script>
+</body>
+
+</html>

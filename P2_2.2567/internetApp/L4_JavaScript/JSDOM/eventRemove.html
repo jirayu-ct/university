@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="myButton">Show event object</button>
+    <script>
+        const button=document.getElementById("myButton");
+
+        function handleClick() {
+            alert("ปุ่มถูกคลิก!");
+        }
+
+        button.addEventListener("click", handleClick);
+
+        // ลบ Event Listener
+        button.removeEventListener("click", handleClick);
+    </script>
+</body>
+
+</html>

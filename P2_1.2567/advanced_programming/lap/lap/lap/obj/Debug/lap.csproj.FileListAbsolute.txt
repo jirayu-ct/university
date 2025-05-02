@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\bin\Debug\lap.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\bin\Debug\lap.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\bin\Debug\lap.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\obj\Debug\lap.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\obj\Debug\lap.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\obj\Debug\lap.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\lap\lap\lap\obj\Debug\lap.pdb

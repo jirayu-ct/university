@@ -1,0 +1,7 @@
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\bin\Debug\abstrac.exe.config
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\bin\Debug\abstrac.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\bin\Debug\abstrac.pdb
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\obj\Debug\abstrac.csproj.AssemblyReference.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\obj\Debug\abstrac.csproj.CoreCompileInputs.cache
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\obj\Debug\abstrac.exe
+E:\githup\subjects\P2_1.2567\advanced_programming\classroom\oop\abstrac\abstrac\obj\Debug\abstrac.pdb

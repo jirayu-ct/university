@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 600px;
+            margin: auto;
+        }
+
+        .float-img {
+            float: left;
+            /* Float the image to the left */
+            margin-right: 15px;
+            /* Add some space to the right of the image */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="float-img">
+        <p>
+            This is an example of using the float property in CSS. The image on the left is floated to the left, which
+            allows the text to wrap around it. This is commonly used in text layouts to create more dynamic and engaging
+            designs. You can add more text here to see how it wraps around the floated image.
+        </p>
+        <p>
+            Floating elements can change the natural flow of the document. It’s important to manage the layout properly,
+            as floated elements may affect the visibility of subsequent content if not handled correctly.
+        </p>
+    </div>
+</body>
+
+</html>

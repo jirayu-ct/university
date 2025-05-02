@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>แบบฟอร์มสั่งอาหารออนไลน์</title>
+    </head>
+    <body>
+        <h1>สั่งอาหารออนไลน์</h1>
+        <form action="#" method="post">
+            <div>
+                <label for="food-name">ชื่ออาหาร:</label>
+                <input type="text" id="food-name" name="food-name" required>
+            </div>
+    
+            <div>
+                <label for="quantity">จำนวน:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+            </div>
+    
+            <fieldset>
+                <legend>ขนาด:</legend>
+                <input type="radio" id="size-small" name="size" value="small" required>
+                <label for="size-small">เล็ก</label>
+                <input type="radio" id="size-medium" name="size" value="medium">
+                <label for="size-medium">กลาง</label>
+                <input type="radio" id="size-large" name="size" value="large">
+                <label for="size-large">ใหญ่</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>เพิ่มเติม:</legend>
+                <input type="checkbox" id="extra-cheese" name="extra" value="cheese">
+                <label for="extra-cheese">ชีส</label>
+                <input type="checkbox" id="extra-bacon" name="extra" value="bacon">
+                <label for="extra-bacon">เบคอน</label>
+                <input type="checkbox" id="extra-salad" name="extra" value="salad">
+                <label for="extra-salad">สลัด</label>
+            </fieldset>
+    
+            <div>
+                <label for="special-instructions">หมายเหตุพิเศษ:</label>
+                <textarea id="special-instructions" name="special-instructions" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="payment-method">วิธีการชำระเงิน:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="">เลือกวิธีการชำระเงิน</option>
+                    <option value="cash">เงินสด</option>
+                    <option value="credit-card">บัตรเครดิต</option>
+                    <option value="transfer">โอนเงิน</option>
+                </select>
+            </div>
+    
+            <div>
+                <button type="submit">สั่งอาหาร</button>
+            </div>
+        </form>
+    </body>
+    </html>                
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Create three unequal columns that floats next to each other */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        /* Left and right column */
+        .column.side {
+            width: 25%;
+        }
+
+        /* Middle column */
+        .column.middle {
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .column.side,
+            .column.middle {
+                width: 100%;
+            }
+        }
+
+        /* Style the footer */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Header</h1>
+        <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Contents</a>
+        <a href="#">Contact us</a>
+    </div>
+
+    <div class="row">
+        <div class="column side">
+            <h2>Side</h2>
+            <p>side bar หรือแถบด้านข้าง เป็นองค์ประกอบการออกแบบและการจัดวางที่พบบ่อยในเว็บไซต์ แอปพลิเคชัน
+                และอินเทอร์เฟซผู้ใช้อื่นๆ</p>
+        </div>
+
+        <div class="column middle">
+            <h2>Main Content</h2>
+            <p>Main content หรือเนื้อหาหลัก คือส่วนสำคัญที่สุดของหน้าเว็บหรือแอปพลิเคชัน
+                ซึ่งมักอยู่ตรงกลางและครอบคลุมพื้นที่ส่วนใหญ่ของหน้า เป็นที่รวมของข้อมูลสำคัญ บทความ หรือสื่อต่างๆ
+                ที่เป็นจุดประสงค์หลักของหน้านั้นๆ และเป็นเหตุผลหลักที่ผู้ใช้เข้ามาชม การออกแบบ Main content
+                ต้องดึงดูดสายตา อ่านง่าย และแยกออกจากส่วนอื่นๆ อย่างชัดเจน
+                นอกจากนี้ยังต้องปรับแต่งให้แสดงผลได้ดีบนอุปกรณ์ต่างๆ และมีความสำคัญอย่างมากสำหรับการทำ SEO
+                เนื่องจากเป็นส่วนที่เครื่องมือค้นหาให้ความสำคัญในการจัดอันดับ</p>
+            <p>ในการออกแบบและพัฒนาเว็บไซต์หรือแอปพลิเคชัน การให้ความสำคัญกับ Main content เป็นสิ่งจำเป็น
+                เพราะเป็นส่วนที่สร้างคุณค่าให้กับผู้ใช้ การจัดวางเนื้อหาอย่างเหมาะสม การใช้ตัวอักษรที่อ่านง่าย
+                และการเลือกใช้สีที่สบายตาจะช่วยเพิ่มประสิทธิภาพในการสื่อสารข้อมูล นอกจากนี้ การทำให้ Main content
+                เข้าถึงได้ง่ายและรวดเร็วยังช่วยปรับปรุงประสบการณ์ผู้ใช้ (User Experience)
+                ซึ่งส่งผลโดยตรงต่อความพึงพอใจของผู้เข้าชมและอัตราการกลับมาใช้งานซ้ำ ดังนั้น
+                การให้ความสำคัญกับการพัฒนาและปรับปรุง Main content
+                อย่างต่อเนื่องจึงเป็นกลยุทธ์สำคัญในการสร้างความสำเร็จให้กับเว็บไซต์หรือแอปพลิเคชัน</p>
+        </div>
+
+        <div class="column side">
+            <h2>Side</h2>
+            <p>side bar หรือแถบด้านข้าง เป็นองค์ประกอบการออกแบบและการจัดวางที่พบบ่อยในเว็บไซต์ แอปพลิเคชัน
+                และอินเทอร์เฟซผู้ใช้อื่นๆ</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+
+</html>

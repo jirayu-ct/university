@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เพิ่มและลบ Element</title>
+</head>
+
+<body>
+    <ul id="myList">
+        <li>รายการที่ 1</li>
+        <li>รายการที่ 2</li>
+    </ul>
+    <button id="addItemButton">เพิ่มรายการ</button>
+    <button id="removeItemButton">ลบรายการ</button>
+
+    <script>
+        document.getElementById("addItemButton").addEventListener("click", function () {
+            // สร้าง Element ใหม่
+            let newItem = document.createElement("li");
+            newItem.textContent = "รายการใหม่";
+
+            // เพิ่ม Element ที่สร้างใหม่เข้าไปใน ul
+            document.getElementById("myList").appendChild(newItem);
+        });
+    </script>
+</body>
+
+</html>
